@@ -1,3 +1,10 @@
 [gd_scene format=3 uid="uid://c8ml016re7v44"]
 
+[sub_resource type="CylinderShape3D" id="CylinderShape3D_53knk"]
+
 [node name="Character" type="Node3D" unique_id=270276591]
+
+[node name="Area3D" type="Area3D" parent="." unique_id=1521895280]
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Area3D" unique_id=78402181]
+shape = SubResource("CylinderShape3D_53knk")
